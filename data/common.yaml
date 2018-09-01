@@ -1,0 +1,4 @@
+---
+btrfs::package_manage: true
+btrfs::package_ensure: 'latest'
+btrfs::package_name: 'btrfs-tools'

@@ -30,6 +30,15 @@ environment:
       PUPPET_GEM_VERSION: ~> 5.0
       RUBY_VERSION: 24-x64
       CHECK: parallel_spec
+    -
+      RUBY_VERSION: 24-x64
+      CHECK: syntax lint
+    -
+      RUBY_VERSION: 24-x64
+      CHECK: metadata_lint
+    -
+      RUBY_VERSION: 24-x64
+      CHECK: rubocop
 matrix:
   fast_finish: true
 install:

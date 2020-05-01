@@ -1,0 +1,12 @@
+HOSTS:
+  opensuse15-64:
+    docker_cmd:
+      - "/sbin/init"
+    image: opensuse/leap:15
+    platform: el-7-x86_64
+    packaging_platform: el-7-x86_64
+    docker_image_commands:
+      - cp /bin/true /sbin/agetty
+      - zypper install -y crontabs initscripts iproute openssl tar wget
+    hypervisor: docker
+    roles: []

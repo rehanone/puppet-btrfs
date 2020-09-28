@@ -1,3 +1,6 @@
+# @summary
+#  Installs the btrfs packages
+#
 class btrfs::install () inherits btrfs {
 
   assert_private("Use of private class ${name} by ${caller_module_name}")

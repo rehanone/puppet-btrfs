@@ -10,7 +10,7 @@
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
-      "version_requirement": ">= 5.0.0 < 7.0.0"
+      "version_requirement": ">= 5.0.0 < 8.0.0"
     }
   ],
   "operatingsystem_support": [
@@ -45,16 +45,14 @@
     {
       "operatingsystem": "Fedora",
       "operatingsystemrelease": [
-        "30",
-        "31",
-        "32"
+        "32",
+        "33",
+        "34"
       ]
     },
     {
       "operatingsystem": "SLES",
       "operatingsystemrelease": [
-        "11",
-        "12",
         "15"
       ]
     },
@@ -70,10 +68,9 @@
       "operatingsystemrelease": [
         "16.04",
         "18.04",
-        "18.10",
-        "19.04",
-        "19.10",
-        "20.04"
+        "20.04",
+        "20.10",
+        "21.04"
       ]
     },
     {
@@ -83,7 +80,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 5.5.10 < 7.0.0"
+      "version_requirement": ">= 5.5.10 < 8.0.0"
     }
   ],
   "tags": [

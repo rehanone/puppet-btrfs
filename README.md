@@ -1,5 +1,6 @@
+# rehan-btrfs
 
-# btrfs Puppet Module
+[![Build Status](https://travis-ci.com/rehanone/puppet-btrfs.svg?branch=master)](https://travis-ci.com/rehanone/puppet-btrfs)
 
 #### Table of Contents
 

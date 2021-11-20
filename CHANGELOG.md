@@ -1,3 +1,13 @@
+## 1.0.0 (November 19, 2021)
+
+**Improvements:**
+
+- Added Debian 11 acceptance tests.
+- Updated os support matrix.
+- Updated `pdk` templates.
+- Updated minimum `puppet` version to `6.0.0`.
+- Updated dependency versions.
+
 ## 0.3.0 (May 4, 2021)
 
 **Features**

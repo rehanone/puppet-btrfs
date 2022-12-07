@@ -2,7 +2,6 @@ define btrfs::pool (
   Enum[raid1] $type,
   Array[Stdlib::Absolutepath] $disks,
 ) {
-
   $pool = $name
 
   $pool_first_disk = $disks[0]

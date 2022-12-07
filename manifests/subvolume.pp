@@ -4,7 +4,6 @@ define btrfs::subvolume (
   String $owner,
   String $group,
 ) {
-
   $subvolume = $name
 
   exec { $subvolume:
@@ -27,4 +26,3 @@ define btrfs::subvolume (
     require => Exec[$subvolume],
   }
 }
-
